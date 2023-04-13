@@ -17,6 +17,6 @@ spec:
       - name: demo-webserver
         # For demonstration, change the :state-1 tag to :state-2
         # ArgoCD should manage the new desired state and automatically deploy the new image in edge-cluster
-        image: docker.io/dangelic/edgecluster-prototype-dockerhub-registry:state-2
+        image: docker.io/dangelic/edgecluster-prototype-dockerhub-registry:state-1
         ports:
         - containerPort: 3555
