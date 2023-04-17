@@ -24,4 +24,5 @@ spec:
         # For demonstration, change the :example-webserver-v-1 tag to :example-webserver-v-2
         # ArgoCD should manage the new desired state and automatically deploy
         image: docker.io/dangelic/edgecluster-prototype-dockerhub-registry:example-webserver-v-1
-        ports: 3555
+        ports:
+        - containerPort: 3555
